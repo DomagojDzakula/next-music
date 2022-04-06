@@ -1,0 +1,4 @@
+export const PLAYLIST_ID = "PLAYLIST_ID";
+export const FETCH_PLAYLISTS = "FETCH_PLAYLISTS";
+export const CURRENT_TRACK = "CURRENT_TRACK";
+export const SET_PLAYING = "SET_PLAYING";

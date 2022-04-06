@@ -1,0 +1,76 @@
+.main-container {
+  flex-grow: 1;
+  min-height: 100vh;
+
+  header {
+    position: absolute;
+    right: 7rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 100%;
+    padding-left: 1.5rem;
+    height: 22rem;
+
+    color: white;
+    background: -webkit-linear-gradient(
+      bottom,
+      black,
+      #0f2027,
+      #203a43,
+      #2c5364
+    );
+
+    /***** PLAYLIST IMAGE *****/
+    img {
+      width: 12rem;
+      height: 12rem;
+      object-fit: cover;
+      box-shadow: 3px 5px 6px black;
+    }
+  }
+}
+
+.something {
+  display: flex;
+  align-items: flex-end;
+}
+
+.information {
+  padding: 1rem;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 2rem;
+  width: 10rem;
+  height: 2.7rem;
+  border-radius: 20px;
+  opacity: 0.7;
+
+  cursor: pointer;
+  background-color: rgb(17, 6, 44);
+  color: white;
+
+  &:hover {
+    opacity: 0.9;
+  }
+  /***** TRACK IMAGE *****/
+  img {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+  }
+}

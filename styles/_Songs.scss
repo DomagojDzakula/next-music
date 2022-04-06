@@ -1,0 +1,45 @@
+.songs {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  gap: 1rem;
+}
+
+.song-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  align-items: center;
+  &:hover {
+    background-color: rgb(4, 29, 34);
+    cursor: pointer;
+  }
+
+  span {
+    color: grey;
+  }
+
+  img {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.time {
+  justify-self: end;
+  margin-right: 5rem;
+}
+.track-information {
+  margin-left: 10rem;
+}
+
+.track-name {
+  display: flex;
+  flex-wrap: nowrap;
+  p {
+    display: flex;
+  }
+  align-items: center;
+  gap: 1rem;
+}

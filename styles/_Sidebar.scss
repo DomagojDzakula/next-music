@@ -1,0 +1,41 @@
+.button-container {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  background: black;
+  overflow: hidden;
+  hr {
+    transform: scaleY(0.1);
+  }
+}
+
+.buttons {
+  button {
+    display: flex;
+    align-items: center;
+
+    background-color: black;
+
+    padding: 0.5rem;
+    border: none;
+    color: #838383;
+
+    &:hover {
+      color: white;
+    }
+
+    svg {
+      transform: scale(1.5);
+      margin: 0.7rem;
+    }
+  }
+}
+.playlist {
+  padding: 1rem;
+  color: #9e9e9e;
+
+  cursor: pointer;
+  &:hover {
+    color: white;
+  }
+}

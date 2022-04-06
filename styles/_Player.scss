@@ -1,0 +1,59 @@
+.player-img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.currently-playing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.2rem;
+  background: #161616;
+  /*background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(15, 32, 39, 1) 75%,
+    rgba(32, 58, 67, 1) 100%,
+    rgba(44, 83, 100, 1) 100%
+  );*/
+}
+
+.currently-playing-information {
+  color: wheat;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  p {
+    color: grey;
+  }
+}
+
+.player-icons {
+  color: white;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  gap: 5rem;
+  svg {
+    transition: 0.1s ease-in;
+    transform: scale(2);
+    &:hover {
+      transform: scale(2.3);
+    }
+  }
+  span {
+    margin-left: -5rem;
+  }
+}
+
+.volume {
+  display: flex;
+  justify-self: end;
+  padding-right: 5rem;
+  gap: 1rem;
+  align-items: center;
+
+  svg {
+    color: white;
+    transform: scale(1.7);
+  }
+}

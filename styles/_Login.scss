@@ -1,0 +1,16 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 100vh;
+
+  button {
+    border: none;
+    padding: 1rem;
+    border-radius: 5%;
+    background-color: #08c367;
+    cursor: pointer;
+  }
+}
